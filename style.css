@@ -54,6 +54,7 @@ h1, h2{
         text-align: center;
     }
     #title{
-        font-size: 0.9em;
+        font-size: 1em;
+        text-shadow: 5px 5px 10px #556b2f;
     }
 }
