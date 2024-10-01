@@ -53,4 +53,7 @@ h1, h2{
     small{
         text-align: center;
     }
+    #title{
+        font-size: 0.9em;
+    }
 }
