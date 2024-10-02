@@ -29,8 +29,12 @@ small{
 }
 #data{
     max-width: 900px;
-    text-align: center;
+    text-align: left;
     line-height: 1.6;
+}
+h1, h2{
+    color: #556b2f;
+    text-shadow: 5px 5px 10px #556b2f;
 }
 #image{
     width: 200px;
@@ -38,9 +42,20 @@ small{
 #last{
     text-align: center;
 }
-h1, h2{
-    color: #556b2f;
-    text-shadow: 5px 5px 10px #556b2f;
+@keyframes shine {
+    0%{
+        filter:brightness(100%);
+    }
+    50%{
+        filter: brightness(150%);
+    }
+    100%{
+        filter: brightness(100%);
+    }
+}
+.shining-image{
+    animation: shine 2s infinite; /*apply the animation */
+    transition: all 0.5s ease-in-out;
 }
 @media only screen and (max-width: 500px){
     #img{
