@@ -32,6 +32,12 @@ small{
     text-align: center;
     line-height: 1.6;
 }
+#image{
+    width: 200px;
+}
+#last{
+    text-align: center;
+}
 h1, h2{
     color: #556b2f;
     text-shadow: 5px 5px 10px #556b2f;
