@@ -70,6 +70,7 @@ h1, h2{
     }
     #data{
         font-size: 0.9em;
+        text-align: left;
     }
     small{
         text-align: center;
